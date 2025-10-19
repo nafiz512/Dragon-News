@@ -12,3 +12,9 @@
     --color-base-300: #e7e7e7;
     --color-accent: #706f6f;
 }
+
+.active-link {
+    font-weight: 500;
+    background-color: var(--color-base-300);
+    color: black;
+}

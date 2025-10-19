@@ -1,19 +1,18 @@
 import React from "react";
+import { NavLink } from "react-router";
 
 const Navbar = () => {
     return (
         <div>
             <div className="navbar bg-base-100  flex justify-between">
-                <div className="">
-                    <a className=""></a>
-                </div>
+                <div className=""></div>
                 <div>
                     <ul
                         tabIndex="-1"
                         className="menu flex flex-row dropdown-content  rounded-box z-1 mt-3  p-2 "
                     >
                         <li>
-                            <a className="justify-between">Profile</a>
+                            <a className="justify-between">Home</a>
                         </li>
                         <li>
                             <a>Settings</a>
